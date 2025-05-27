@@ -75,6 +75,11 @@ h1 {
   font-size: var(--tamano-grande);
   font-weight: 800;
   margin-bottom: 4px;
+  transition: .2s ease-in-out all;
+  cursor: pointer;
+}
+h1:hover {
+  color: var(--Amarillo);
 }
 
 .profile-card {
